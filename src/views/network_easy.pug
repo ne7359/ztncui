@@ -46,8 +46,8 @@ block net_content
         poolStart.value = int32toIPv4String(net32 + 1);  
         poolEnd.value = int32toIPv4String(bcast32 - 1);
       } else {
-        poolStart.value = 'Invalid network CIDR';
-        poolEnd.value = 'Invalid network CIDR';
+        poolStart.value = '网络 CIDR 不可用';
+        poolEnd.value = '网络 CIDR 不可用';
       }
     }
 
