@@ -72,7 +72,7 @@ exports.index = async function(req, res) {
     res.render('index', {title: 'ztncui控制器', navigate: navigate, zt_status});
   } catch (err) {
     res.render('index', {title: 'ztncui控制器',
-                      navigate: navigate, error: '获取ZT状态时出错: ' + err});
+                      navigate: navigate, error: '获取Zerotier状态时出错: ' + err});
   }
 };
 
