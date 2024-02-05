@@ -2,7 +2,7 @@
   ztncui - ZeroTier network controller UI
   Copyright (C) 2017-2021  Key Networks (https://key-networks.com)
   Licensed under GPLv3 - see LICENSE for details.
-  2024年1月19日汉化
+  2024年2月5日汉化
 */
 
 const fs = require('fs');
